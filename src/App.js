@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <footer>
+        This project created by Olha Kolisnyk{" "}
+        <a href="https://github.com/Olha1304/react-5.git">
+          open-sourced in GitHub
         </a>
-      </header>
+        <a href="https://dynamic-banoffee-75a1c5.netlify.app">
+          hosted by Netlify
+        </a>
+      </footer>
     </div>
   );
 }
-
-export default App;
