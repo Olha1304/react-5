@@ -8,8 +8,10 @@ export default function App() {
         <a href="https://github.com/Olha1304/react-5.git">
           open-sourced in GitHub{" "}
         </a>
-        and hosted by{" "}
-        <a href="https://dynamic-banoffee-75a1c5.netlify.app">Netlify</a>
+        and{" "}
+        <a href="https://dynamic-banoffee-75a1c5.netlify.app">
+          hosted by Netlify
+        </a>
       </footer>
     </div>
   );
