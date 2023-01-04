@@ -4,8 +4,8 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
       <footer>
+        <Weather />
         This project created by Olha Kolisnyk{" "}
         <a href="https://github.com/Olha1304/react-5.git">
           open-sourced in GitHub{" "}
